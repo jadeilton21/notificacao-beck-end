@@ -1,0 +1,25 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jadeiltondm@gmail.com
+    password: xexc ldfl lcpp hppi
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+
+  thymeleaf:
+    enable: true
+
+envio:
+  email:
+    remetente: jadeiltondm@gmail.com
+    nomeRemetente: "Jadeilton"
+
+server:
+  port: 8082
